@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-      <test
+      <PageNavigateComponent
               v-bind:pageNumber="pageNumber"
       />
       <Plate
@@ -14,11 +14,11 @@
 
 <script>
 import Plate from "@/components/Plate";
-import Test from "@/components/test";
+import PageNavigateComponent from "@/components/PageNavigateComponent";
 export default {
   name: 'App',
   components: {
-      Test,
+      PageNavigateComponent,
       Plate
   },
   data() {
